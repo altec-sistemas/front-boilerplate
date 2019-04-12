@@ -4,8 +4,19 @@
   "private": true,
   "dependencies": {
     "react": "^16.8.6",
+    "react-art": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-native": "0.59.4",
+    "react-native-web": "^0.11.2",
+    "react-router-dom": "^5.0.0",
+    "react-router-native": "^5.0.0",
     "react-scripts": "2.1.8"
+  },
+  "devDependencies": {
+    "docz": "^1.0.0-rc.8",
+    "docz-theme-default": "^1.0.0-rc.8",
+    "electron": "^4.1.4",
+    "eslint-plugin-react-hooks": "^1.6.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -14,7 +25,14 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app",
+    "plugins": [
+      "react-hooks"
+    ],
+    "rules": {
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "off"
+    }
   },
   "browserslist": [
     ">0.2%",
