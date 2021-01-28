@@ -15,7 +15,7 @@
   "devDependencies": {
     "docz": "^1.0.0-rc.8",
     "docz-theme-default": "^1.0.0-rc.8",
-    "electron": "^4.1.4",
+    "electron": "^9.4.0",
     "eslint-plugin-react-hooks": "^1.6.0"
   },
   "scripts": {
